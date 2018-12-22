@@ -1,0 +1,5 @@
+created_at: int  .
+name: string @index(term, fulltext) .
+type: int  .
+updated_at: int  .
+friend_of: uid @count @reverse .
